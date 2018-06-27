@@ -29,7 +29,7 @@ init_repo() {
 		cd -- "${repository}"
 		git remote remove origin
 		git remote add github "ssh://git@github.com/${account}/${repository}.git"
-		git remote add gitlab "ssh://git@gitilab.com/${account}/${repository}.git"
+		git remote add gitlab "ssh://git@gitlab.com/${account}/${repository}.git"
 		#git remote add sourceforge  ssh://${account}@git.code.sf.net/p/${repository}/code
 	)
 }
